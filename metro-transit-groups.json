@@ -1,0 +1,279 @@
+{
+  "_comment": "Precomputed job matrix for metro-transit.yml, metro_others. One job per (extract, cluster), capped at 10 cities so a single failing city cannot fail its whole group. Clustering bounds the coarse cut; the cap bounds the blast radius. Generated rather than computed in jq, which failed in CI under set -euo pipefail with no message.",
+  "perJob": 10,
+  "cityCount": 55,
+  "groupCount": 36,
+  "groups": [
+    {
+      "extract": "afghanistan",
+      "cluster": "afghanistan-242",
+      "cities": [
+        "kabul:68.88326,34.21669,69.48326,34.81669"
+      ]
+    },
+    {
+      "extract": "armenia",
+      "cluster": "armenia",
+      "cities": [
+        "yerevan:44.21355,39.88115,44.81355,40.48115"
+      ]
+    },
+    {
+      "extract": "australia",
+      "cluster": "australia",
+      "cities": [
+        "binningup:115.45,-33.18,115.95,-32.82",
+        "dalyston:145.18,-38.74,145.68,-38.38"
+      ]
+    },
+    {
+      "extract": "australia",
+      "cluster": "australia-51",
+      "cities": [
+        "brisbane:152.94,-27.58,153.22,-27.38",
+        "goldcoast:153.18769,-28.2283,153.55697,-27.67079"
+      ]
+    },
+    {
+      "extract": "australia",
+      "cluster": "australia-52",
+      "cities": [
+        "perth:115.74,-32.12,116.02,-31.88"
+      ]
+    },
+    {
+      "extract": "australia",
+      "cluster": "australia-53",
+      "cities": [
+        "sydney:150.88518,-34.22001,151.48518,-33.62001"
+      ]
+    },
+    {
+      "extract": "australia",
+      "cluster": "australia-54",
+      "cities": [
+        "adelaide:138.35,-35.11,138.85,-34.75"
+      ]
+    },
+    {
+      "extract": "australia",
+      "cluster": "australia-55",
+      "cities": [
+        "canberra:148.82903,-35.58303,149.42903,-34.98303",
+        "melbourne:144.67501,-38.12003,145.27501,-37.52003"
+      ]
+    },
+    {
+      "extract": "azerbaijan",
+      "cluster": "azerbaijan-174",
+      "cities": [
+        "baku:49.56222,40.09527,50.16222,40.69527"
+      ]
+    },
+    {
+      "extract": "bangladesh",
+      "cluster": "bangladesh-224",
+      "cities": [
+        "dhaka:90.10858,23.42306,90.70858,24.02306"
+      ]
+    },
+    {
+      "extract": "bhutan",
+      "cluster": "bhutan",
+      "cities": [
+        "thimphu:89.33902,27.17299,89.93901,27.77299"
+      ]
+    },
+    {
+      "extract": "cambodia",
+      "cluster": "cambodia-258",
+      "cities": [
+        "phnompenh:104.61663,11.25003,105.21663,11.85003"
+      ]
+    },
+    {
+      "extract": "hongkong",
+      "cluster": "hongkong-1",
+      "cities": [
+        "hongkong:113.69813,21.85453,114.67189,22.75543"
+      ]
+    },
+    {
+      "extract": "india",
+      "cluster": "india-86",
+      "cities": [
+        "bangalore:77.26001,12.67,77.86001,13.27",
+        "chennai:79.9707,12.7827,80.5707,13.3827",
+        "hyderabad:78.24,17.21,78.74,17.57"
+      ]
+    },
+    {
+      "extract": "india",
+      "cluster": "india-87",
+      "cities": [
+        "ahmedabad:72.2714,22.7225,72.8714,23.3225",
+        "mumbai:72.55698,18.71699,73.15698,19.31699",
+        "pune:73.5567,18.2204,74.1567,18.8204",
+        "surat:72.5311,20.8702,73.1311,21.4702"
+      ]
+    },
+    {
+      "extract": "india",
+      "cluster": "india-88",
+      "cities": [
+        "kolkata:88.02468,22.19497,88.62467,22.79497"
+      ]
+    },
+    {
+      "extract": "india",
+      "cluster": "india-89",
+      "cities": [
+        "delhi:76.9,28.38,77.46,28.78"
+      ]
+    },
+    {
+      "extract": "indonesia",
+      "cluster": "indonesia-240",
+      "cities": [
+        "jakarta:106.52944,-6.47442,107.12944,-5.87442",
+        "semarang:110.17,-7.17,110.67,-6.81",
+        "surabaya:112.63417,-7.36565,112.81749,-7.21557"
+      ]
+    },
+    {
+      "extract": "kazakhstan",
+      "cluster": "kazakhstan",
+      "cities": [
+        "astana:71.12777,50.88113,71.72777,51.48112",
+        "shymkent:69.35,42.17,69.85,42.53"
+      ]
+    },
+    {
+      "extract": "kyrgyzstan",
+      "cluster": "kyrgyzstan",
+      "cities": [
+        "bishkek:74.28521,42.57308,74.8852,43.17308"
+      ]
+    },
+    {
+      "extract": "laos",
+      "cluster": "laos",
+      "cities": [
+        "vientiane:102.29998,17.66669,102.89998,18.26669"
+      ]
+    },
+    {
+      "extract": "malaysia-singapore-brunei",
+      "cluster": "malaysia-singapore-brunei-241",
+      "cities": [
+        "johorbahru:103.49,1.31,103.99,1.67",
+        "kualalumpur:101.39998,2.86667,101.99998,3.46667",
+        "petalingjaya:101.55414,3.04151,101.66785,3.21778",
+        "putrajaya:101.40194,2.61402,102.00194,3.21402",
+        "shahalam:101.27,2.89,101.77,3.25",
+        "singapore:103.55582,0.99303,104.15582,1.59303"
+      ]
+    },
+    {
+      "extract": "myanmar",
+      "cluster": "myanmar",
+      "cities": [
+        "naypyidaw:95.81862,19.46656,96.41862,20.06656"
+      ]
+    },
+    {
+      "extract": "myanmar",
+      "cluster": "myanmar-271",
+      "cities": [
+        "yangon:95.8951,16.5661,96.4951,17.1661"
+      ]
+    },
+    {
+      "extract": "nepal",
+      "cluster": "nepal",
+      "cities": [
+        "kathmandu:85.01664,27.41669,85.61664,28.01669"
+      ]
+    },
+    {
+      "extract": "new-zealand",
+      "cluster": "new-zealand",
+      "cities": [
+        "auckland:174.46302,-37.14805,175.06303,-36.54806"
+      ]
+    },
+    {
+      "extract": "new-zealand",
+      "cluster": "us-northeast-58",
+      "cities": [
+        "wellington:174.48327,-41.59999,175.08327,-40.99999"
+      ]
+    },
+    {
+      "extract": "pakistan",
+      "cluster": "pakistan-238",
+      "cities": [
+        "karachi:66.7011,24.5607,67.3011,25.1607"
+      ]
+    },
+    {
+      "extract": "pakistan",
+      "cluster": "pakistan-239",
+      "cities": [
+        "islamabad:72.86664,33.4,73.46664,34",
+        "lahore:74.09,31.37,74.59,31.73"
+      ]
+    },
+    {
+      "extract": "philippines",
+      "cluster": "philippines-254",
+      "cities": [
+        "manila:120.68222,14.30416,121.28222,14.90416",
+        "quezoncity:120.9791,14.4619,121.11502,14.79421"
+      ]
+    },
+    {
+      "extract": "sri-lanka",
+      "cluster": "sri-lanka",
+      "cities": [
+        "colombo:79.55775,6.63197,80.15775,7.23197"
+      ]
+    },
+    {
+      "extract": "tajikistan",
+      "cluster": "tajikistan",
+      "cities": [
+        "dushanbe:68.47388,38.26004,69.07388,38.86003"
+      ]
+    },
+    {
+      "extract": "thailand",
+      "cluster": "thailand-175",
+      "cities": [
+        "bangkok:100.21664,13.45,100.81664,14.05"
+      ]
+    },
+    {
+      "extract": "turkmenistan",
+      "cluster": "turkmenistan",
+      "cities": [
+        "ashgabat:58.0833,37.65,58.6833,38.24999"
+      ]
+    },
+    {
+      "extract": "uzbekistan",
+      "cluster": "uzbekistan-262",
+      "cities": [
+        "samarkand:66.72,39.47,67.22,39.83",
+        "tashkent:68.99494,41.0117,69.59494,41.6117"
+      ]
+    },
+    {
+      "extract": "vietnam",
+      "cluster": "vietnam-234",
+      "cities": [
+        "hanoi:105.55002,20.73333,106.15002,21.33333"
+      ]
+    }
+  ]
+}
