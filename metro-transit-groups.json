@@ -1,8 +1,8 @@
 {
   "_comment": "Precomputed job matrix for metro-transit.yml, metro_others. One job per (extract, cluster), capped at 10 cities so a single failing city cannot fail its whole group. Clustering bounds the coarse cut; the cap bounds the blast radius. Generated rather than computed in jq, which failed in CI under set -euo pipefail with no message.",
   "perJob": 10,
-  "cityCount": 55,
-  "groupCount": 36,
+  "cityCount": 54,
+  "groupCount": 35,
   "groups": [
     {
       "extract": "afghanistan",
@@ -89,13 +89,6 @@
       "cluster": "cambodia-258",
       "cities": [
         "phnompenh:104.61663,11.25003,105.21663,11.85003"
-      ]
-    },
-    {
-      "extract": "hongkong",
-      "cluster": "hongkong-1",
-      "cities": [
-        "hongkong:113.69813,21.85453,114.67189,22.75543"
       ]
     },
     {
